@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Records</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js"></script>
+
+</head>
+
+<body>
+    <div class="container">
+
+        <h1>Student Record </h1>
+        <form action="studentRecords.html" method="$">
+
+            <label for="rno"><b></b></label>
+            <input id="d1" type="text" placeholder="Roll No." name="rno" required>
+
+            <label for="sname"><b></b></label>
+            <input id="d2" type="text" placeholder="Student Name" name="sname" required>
+
+            <button id="addnew" type="button" onclick="addrec()">Add New</button>
+
+            <table id="tab">
+                <tr id="head">
+                    <th> Roll No. </th>
+                    <th> Name </th>
+                </tr>
+
+            </table>
+
+            <button id="d3" type="button" onclick="delrec()">Delete Last Record</button>
+        </form>
+    </div>
+
+
+
+</body>
+
+</html>

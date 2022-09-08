@@ -1,0 +1,64 @@
+table,
+th,
+td {
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 2px;
+    padding-right: 2px;
+
+    border: 1px solid black;
+}
+
+#tab {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+#head {
+    background-color: lightseagreen;
+}
+
+.container {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    width: 35em;
+    height: 25em;
+    /*negative number 1/2 of your height  and width */
+    margin-top: -9em;
+    margin-left: -15em;
+
+    border: 1px solid #ccc;
+    background-color: #f3f3f3;
+
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px #888888;
+
+    border-radius: 25px;
+    font-family: Arial;
+
+}
+
+#un:hover {
+    background-color: rgb(19, 201, 214);
+    border: 4px solid rgb(180, 38, 38);
+}
+
+#pw:hover {
+    background-color: rgb(19, 201, 214);
+    border: 4px solid rgb(153, 37, 37);
+}
+
+.container {
+    background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+}
+
+#addnew {
+    background-color: green;
+}
+
+#d3 {
+    background-color: red;
+}
