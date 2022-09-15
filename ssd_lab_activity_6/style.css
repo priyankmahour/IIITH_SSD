@@ -1,0 +1,17 @@
+.parent {
+    display: flex;
+    width: 50%;
+}
+
+.dropTargetDiv {
+    border: 2px solid rgb(15, 3, 26);
+    margin: 10px;
+    width: 120px;
+}
+
+
+
+.dark-mode {
+    background-color: black;
+    color: white;
+}
